@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: #9bfec660;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.current--course {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.current--course--name {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.current--course--value {
+  font-size: 18px;
+}
