@@ -1,2 +1,2 @@
 # Money convertor
-https://clinquant-sfogliatella-ad7de3.netlify.app/
+https://lovely-seahorse-76dadc.netlify.app/

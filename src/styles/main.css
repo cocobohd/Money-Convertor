@@ -60,7 +60,7 @@
 @media (max-width: 1200px) {
   .main--divs {
     flex-direction: column;
-    min-height: auto;
+    min-width: auto;
   }
   .div--to {
     margin-top: 25px;
