@@ -56,3 +56,37 @@
   margin-top: 25px;
   font-size: 36px;
 }
+
+@media (max-width: 1200px) {
+  .main--divs {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .div--to {
+    margin-top: 25px;
+  }
+  .header {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .current--course {
+    margin: 25px 0;
+  }
+  .main {
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    padding: 20px;
+  }
+  .main--title {
+    font-size: 46px;
+  }
+  .main--divs input {
+    width: 100%;
+  }
+  .main--divs {
+    margin-top: 30px;
+  }
+}

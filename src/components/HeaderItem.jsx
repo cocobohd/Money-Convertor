@@ -5,7 +5,7 @@ export default function HeaderItem (props) {
           {props.fromTo}
         </h1>
         <p className="current--course--value">
-          {props.currentUSD}
+          {props.currentCourse}
         </p>
       </div>
   )

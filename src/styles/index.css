@@ -8,3 +8,8 @@
   height: 100vh;
   background-color: #9cffc721;
 }
+@media (max-width: 1200px) {
+  .app {
+    height: auto;
+  }
+}

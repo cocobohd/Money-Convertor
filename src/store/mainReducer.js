@@ -1,8 +1,9 @@
-import { CHANGE_USD, CHANGE_EUR} from "../store/types"
+import { CHANGE_USD, CHANGE_EUR, CHANGE_USDTOEUR } from "../store/types"
 
 let defaultStore = {
   courseNowUSD: 0,
-  courseNowEUR: 0
+  courseNowEUR: 0,
+  courseNowUSDtoEUR: 0
 }
 
 export const mainReducer = (state = defaultStore, action) => {
@@ -16,6 +17,11 @@ export const mainReducer = (state = defaultStore, action) => {
       return {
         ...state,
         courseNowEUR: action.courseNowEUR
+      }
+    case CHANGE_USDTOEUR:
+      return {
+        ...state,
+        courseNowUSDtoEUR: action.courseNowUSDtoEUR
       }
     default:
       return state
